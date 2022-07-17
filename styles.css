@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 800px;
+  width: 1400px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img15 { background-image: url("/Users/samarahhiba/Desktop/HTML/Solutions.png"); }
+
+
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: right;
+	justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+    
